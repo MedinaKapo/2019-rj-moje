@@ -125,7 +125,7 @@ class KalendarTest {
         );
     }
 
- /*   @Test
+    @Test
     void testOtkazi3() {
         kalendar.zakaziDogadjaje(testniDogadjaji);
 
@@ -136,7 +136,7 @@ class KalendarTest {
                 () -> assertEquals(4, kalendar.dajKalendar().size()),
                 () -> assertFalse(kalendar.dajKalendar().contains(testniDogadjaji.get(3)))
         );
-    }*/
+    }
 
     @Test
     void testDajKalendar() {
